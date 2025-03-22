@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ivanioi.github.io/sitemap.xml

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HmadeOS-Part01 on Areté</title>
+    <link>https://ivanioi.github.io/series/hmadeos-part01/</link>
+    <description>Recent content in HmadeOS-Part01 on Areté</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Areté</copyright>
+    <atom:link href="https://ivanioi.github.io/series/hmadeos-part01/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>项目介绍</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part1-intro/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part1-intro/info/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;这个项目要干什么? 
+    &lt;div id=&#34;%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E8%BF%99%E4%B8%AA%E9%A1%B9%E7%9B%AE%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;我感到非常无聊，让我们在计算机中找点乐子吧。我承认目前我只是一个擅长 CRUD 的码农，这也勾起了我对它的兴趣，让我更想知道它能给我带来什么样子的体验!&lt;/p&gt;
+&lt;p&gt;所以, 我的目标是在学习，开发过程中，主要根据课程，书籍，等一切资源搭建起操作系统各个关键组件, 比如计算机本身(虚拟化)，操作系统，网络堆栈，编译器，数据库，GUI Desktop&amp;hellip;&amp;hellip;&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;如何实现? 
+    &lt;div id=&#34;%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;我为什么认为这个项目是可以实现的？一个 CRUD 仔如何实现这一切？&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>项目计划</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part1-intro/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part1-intro/plan/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;抽象 + 第一性原理 + 解构 
+    &lt;div id=&#34;%E6%8A%BD%E8%B1%A1--%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86--%E8%A7%A3%E6%9E%84&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E6%8A%BD%E8%B1%A1--%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86--%E8%A7%A3%E6%9E%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;这个项目的内容规划本身也是非常的复杂的, 因为它的目的是掌握另一件本就复杂的事物!&lt;/p&gt;
+&lt;p&gt;以下两张图从两个不同视角分解计算机, 我们可以有效的对其进行解构，并通过抽象进行封装。&lt;/p&gt;
+&lt;p&gt;我目前对内容规划的想法就是, 首先尽可能掌握最基础的知识, 然后对掌握的知识进行抽象封装, 充当上一层的第一性公理系统. 然后不断循环，吸收知识, 产出内容.&lt;/p&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img
+        class=&#34;my-0 rounded-md&#34;
+        loading=&#34;lazy&#34;
+        srcset=&#34;
+        /projects/toycomputer/part1-intro/plan/computer-struct_hu_98658fc591ea7dae.png 330w,
+        /projects/toycomputer/part1-intro/plan/computer-struct_hu_10b4a12848e149d.png 660w,
+        /projects/toycomputer/part1-intro/plan/computer-struct_hu_fd78c4e6b547fc57.png 1024w,
+        /projects/toycomputer/part1-intro/plan/computer-struct_hu_a8a5e0f386d294ee.png 2x&#34;
+        src=&#34;https://ivanioi.github.io/projects/toycomputer/part1-intro/plan/computer-struct_hu_10b4a12848e149d.png&#34;
+        alt=&#34;computer-struct&#34;
+      /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

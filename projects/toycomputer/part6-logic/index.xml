@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logic on Areté</title>
+    <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/</link>
+    <description>Recent content in Logic on Areté</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Areté</copyright>
+    <atom:link href="https://ivanioi.github.io/projects/toycomputer/part6-logic/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>布尔代数</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/boolean-algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/boolean-algebra/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is Boolean Algebra 
+    &lt;div id=&#34;what-is-boolean-algebra&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-boolean-algebra&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;什么是布尔代数？我们知道初等代数是什么，比如 &lt;code&gt;y = 3x + 1, y = 3x^2 + 2x + 3&lt;/code&gt; 它们往往都可以在一个 2 维坐标中转变为一个对应的图形。比如 &lt;code&gt;y = x^2 -x - 2&lt;/code&gt; 对应如下图形:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>数字系统</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/number-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/number-system/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;如何使用 0, 1 表达数字? 
+    &lt;div id=&#34;%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-0-1-%E8%A1%A8%E8%BE%BE%E6%95%B0%E5%AD%97&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-0-1-%E8%A1%A8%E8%BE%BE%E6%95%B0%E5%AD%97&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;图灵机就是用 0, 1 来表达数字的，并且它的目的就是计算数字。二进制和十进制没有什么不同，唯一的差别就是我们更加熟悉十进制而以，我们可以使用与计算十进制的加法，减法，除法，乘法时一样的方式在
+纸上计算二进制数字，尝试计算一下 &lt;code&gt;11b * 11b = ?&lt;/code&gt; 和 &lt;code&gt;01b / 11b = ?&lt;/code&gt;, 之后你会发现两者没有什么不同。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Decoder</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/decoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/decoder/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is decoder? 
+    &lt;div id=&#34;what-is-decoder&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-decoder&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i13.png&#34; alt=&#34;i13&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Type: Combinational Logic Circuits 
+    &lt;div id=&#34;type-combinational-logic-circuits&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#type-combinational-logic-circuits&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Input: n Bit 
+    &lt;div id=&#34;input-n-bit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#input-n-bit&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Output: 2^n Bit 
+    &lt;div id=&#34;output-2n-bit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#output-2n-bit&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;function: 将 n bit 无符号二进制整数解析为一个 2^n bit 长的唯一标识. 
+    &lt;div id=&#34;function-%E5%B0%86-n-bit-%E6%97%A0%E7%AC%A6%E5%8F%B7%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B4%E6%95%B0%E8%A7%A3%E6%9E%90%E4%B8%BA%E4%B8%80%E4%B8%AA-2n-bit-%E9%95%BF%E7%9A%84%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#function-%E5%B0%86-n-bit-%E6%97%A0%E7%AC%A6%E5%8F%B7%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B4%E6%95%B0%E8%A7%A3%E6%9E%90%E4%B8%BA%E4%B8%80%E4%B8%AA-2n-bit-%E9%95%BF%E7%9A%84%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Boolean Expression 
+    &lt;div id=&#34;boolean-expression&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#boolean-expression&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Y0 = !A!B&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Mux</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/mux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/mux/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is mux? 
+    &lt;div id=&#34;what-is-mux&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-mux&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i14.png&#34; alt=&#34;i14&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Type: Combinational Logic Circuits 
+    &lt;div id=&#34;type-combinational-logic-circuits&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#type-combinational-logic-circuits&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Input: n Bit Data Input, log2(n) bit Select Input 
+    &lt;div id=&#34;input-n-bit-data-input-log2n-bit-select-input&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#input-n-bit-data-input-log2n-bit-select-input&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Output: 1 Bit 
+    &lt;div id=&#34;output-1-bit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#output-1-bit&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;function: 根据输入 S 选择输出 N Bit 输入中对应的某一个值. 
+    &lt;div id=&#34;function-%E6%A0%B9%E6%8D%AE%E8%BE%93%E5%85%A5-s-%E9%80%89%E6%8B%A9%E8%BE%93%E5%87%BA-n-bit-%E8%BE%93%E5%85%A5%E4%B8%AD%E5%AF%B9%E5%BA%94%E7%9A%84%E6%9F%90%E4%B8%80%E4%B8%AA%E5%80%BC&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#function-%E6%A0%B9%E6%8D%AE%E8%BE%93%E5%85%A5-s-%E9%80%89%E6%8B%A9%E8%BE%93%E5%87%BA-n-bit-%E8%BE%93%E5%85%A5%E4%B8%AD%E5%AF%B9%E5%BA%94%E7%9A%84%E6%9F%90%E4%B8%80%E4%B8%AA%E5%80%BC&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Boolean Expression 
+    &lt;div id=&#34;boolean-expression&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#boolean-expression&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Y = !S1!S2D0 + !S1S2D1 + S1!S2D2 + S1S2D3&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Full Adder</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/full-adder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/full-adder/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is full adder? 
+    &lt;div id=&#34;what-is-full-adder&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-full-adder&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i17.png&#34; alt=&#34;i17&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i18.png&#34; alt=&#34;i18&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Type: Combinational Logic Circuits 
+    &lt;div id=&#34;type-combinational-logic-circuits&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#type-combinational-logic-circuits&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Input: 1 bit A, 1 bit B, 1 bit C(carry) 
+    &lt;div id=&#34;input-1-bit-a-1-bit-b-1-bit-ccarry&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#input-1-bit-a-1-bit-b-1-bit-ccarry&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Output: 1 bit sum, 1 bit carry 
+    &lt;div id=&#34;output-1-bit-sum-1-bit-carry&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#output-1-bit-sum-1-bit-carry&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;function: 将 A,B,C 相加，输出结果和进位值 
+    &lt;div id=&#34;function-%E5%B0%86-abc-%E7%9B%B8%E5%8A%A0%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C%E5%92%8C%E8%BF%9B%E4%BD%8D%E5%80%BC&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#function-%E5%B0%86-abc-%E7%9B%B8%E5%8A%A0%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C%E5%92%8C%E8%BF%9B%E4%BD%8D%E5%80%BC&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Boolean Expression 
+    &lt;div id=&#34;boolean-expression&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#boolean-expression&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Y(sum) = A + B + C&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>PLA</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/pla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/pla/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is PLA(aka.Programmable Logic Array)? 
+    &lt;div id=&#34;what-is-plaakaprogrammable-logic-array&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-plaakaprogrammable-logic-array&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i20.png&#34; alt=&#34;i20&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Type: Combinational Logic Circuits 
+    &lt;div id=&#34;type-combinational-logic-circuits&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#type-combinational-logic-circuits&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Input: n bit you want 
+    &lt;div id=&#34;input-n-bit-you-want&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#input-n-bit-you-want&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;Output: n bit you want 
+    &lt;div id=&#34;output-n-bit-you-want&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#output-n-bit-you-want&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+
+
+&lt;h4 class=&#34;relative group&#34;&gt;function: 可用于实现任何布尔逻辑 
+    &lt;div id=&#34;function-%E5%8F%AF%E7%94%A8%E4%BA%8E%E5%AE%9E%E7%8E%B0%E4%BB%BB%E4%BD%95%E5%B8%83%E5%B0%94%E9%80%BB%E8%BE%91&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#function-%E5%8F%AF%E7%94%A8%E4%BA%8E%E5%AE%9E%E7%8E%B0%E4%BB%BB%E4%BD%95%E5%B8%83%E5%B0%94%E9%80%BB%E8%BE%91&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h4&gt;
+&lt;p&gt;任何组合逻辑电路都能转变为一个真值表，而 PLA 可以用于编程任何满足我们期望的真值表的功能. 其分为两部分:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>有限状态机</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part6-logic/finite-state-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part6-logic/finite-state-machine/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is FSM? 
+    &lt;div id=&#34;what-is-fsm&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-fsm&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;a finite number of states&lt;/li&gt;
+&lt;li&gt;a finite number of external inputs&lt;/li&gt;
+&lt;li&gt;a finite number of external outputs&lt;/li&gt;
+&lt;li&gt;an explicit specification of all state transitions&lt;/li&gt;
+&lt;li&gt;an explicit specification of what determines each external output value.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;比如下面这个例子:&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

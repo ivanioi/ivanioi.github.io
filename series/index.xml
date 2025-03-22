@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Areté</title>
+    <link>https://ivanioi.github.io/series/</link>
+    <description>Recent content in Series on Areté</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Areté</copyright>
+    <atom:link href="https://ivanioi.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HmadeOS-Part01</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part01/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HmadeOS-Part02</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part02/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HmadeOS-Part03</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part03/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HmadeOS-Part04</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part04/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HmadeOS-Part05</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part05/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HmadeOS-Part06</title>
+      <link>https://ivanioi.github.io/series/hmadeos-part06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/hmadeos-part06/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sokoban</title>
+      <link>https://ivanioi.github.io/series/sokoban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/series/sokoban/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

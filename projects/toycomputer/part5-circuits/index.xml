@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电路 on Areté</title>
+    <link>https://ivanioi.github.io/projects/toycomputer/part5-circuits/</link>
+    <description>Recent content in 电路 on Areté</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Areté</copyright>
+    <atom:link href="https://ivanioi.github.io/projects/toycomputer/part5-circuits/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>电路类型</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part5-circuits/circuit-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part5-circuits/circuit-type/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;组合电路 
+    &lt;div id=&#34;%E7%BB%84%E5%90%88%E7%94%B5%E8%B7%AF&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E7%BB%84%E5%90%88%E7%94%B5%E8%B7%AF&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;组合电路的特点是，不存储任何信息，其输出完全依赖于当前的输入.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;时序电路 
+    &lt;div id=&#34;%E6%97%B6%E5%BA%8F%E7%94%B5%E8%B7%AF&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E6%97%B6%E5%BA%8F%E7%94%B5%E8%B7%AF&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;时序电路的特点是，其可以存储信息，其输出不仅仅依赖于当前的输入，还依赖于之前的输入.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>记忆电路</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part5-circuits/storage-circuit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part5-circuits/storage-circuit/</guid>
+      <description>&lt;p&gt;我们知道电容可以储备电子，那么在电路中又该如何储备 &lt;code&gt;bit&lt;/code&gt; 呢？&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;R-S Latch 
+    &lt;div id=&#34;r-s-latch&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#r-s-latch&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i0.png&#34; alt=&#34;i0&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;R-S Latch 由两个相联的 &lt;code&gt;NAND Gate&lt;/code&gt; 组成，它的特性如下:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;只能存储 1 bit 信息，该信息从 a 出输出.&lt;/li&gt;
+&lt;li&gt;不能同时将 S, R 设置为 0，否则存储的 bit 处于不确定状态.&lt;/li&gt;
+&lt;li&gt;当为 S 端输入 0 时，a 输出 1，我们称之为 &lt;code&gt;setting&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;当为 R 端输入 1 时，a 输出 0，我们成指为 &lt;code&gt;resetting&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;该电路非常简单，其真值表如下:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>振荡器</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part5-circuits/oscillator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part5-circuits/oscillator/</guid>
+      <description>&lt;lite-youtube videoid=&#34;aJAZHPqEUKU&#34; playlabel=&#34;aJAZHPqEUKU&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;
+
+&lt;p&gt;
+    &lt;figure&gt;
+      &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; src=&#34;./static/i5.png&#34; alt=&#34;i5&#34; /&gt;
+      
+    &lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;我们把每一个 0-1 以及下一个 0-1 电压转变时刻之间的周期称之为 &lt;code&gt;ONE CLOCK CYCLE&lt;/code&gt;！&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>PCB</title>
+      <link>https://ivanioi.github.io/projects/toycomputer/part5-circuits/pcb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/projects/toycomputer/part5-circuits/pcb/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;PCB是如何工作的？ 
+    &lt;div id=&#34;pcb%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#pcb%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;lite-youtube videoid=&#34;YJr-kHy6STg&#34; playlabel=&#34;YJr-kHy6STg&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;
+
+&lt;lite-youtube videoid=&#34;Ukc_kc5OAhw&#34; playlabel=&#34;Ukc_kc5OAhw&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;
+
+&lt;lite-youtube videoid=&#34;Z2LgmIGE2nI&#34; playlabel=&#34;Z2LgmIGE2nI&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;
+
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;主板是如果工作的？ 
+    &lt;div id=&#34;%E4%B8%BB%E6%9D%BF%E6%98%AF%E5%A6%82%E6%9E%9C%E5%B7%A5%E4%BD%9C%E7%9A%84&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E4%B8%BB%E6%9D%BF%E6%98%AF%E5%A6%82%E6%9E%9C%E5%B7%A5%E4%BD%9C%E7%9A%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;lite-youtube videoid=&#34;zxGqGCtPxn4&#34; playlabel=&#34;zxGqGCtPxn4&#34; params=&#34;&#34;&gt;&lt;/lite-youtube&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

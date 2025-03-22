@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on Areté</title>
+    <link>https://ivanioi.github.io/tags/</link>
+    <description>Recent content in 标签 on Areté</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2025 Areté</copyright>
+    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ivanioi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blog</title>
+      <link>https://ivanioi.github.io/tags/blog/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Circuit</title>
+      <link>https://ivanioi.github.io/tags/circuit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/circuit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Computer</title>
+      <link>https://ivanioi.github.io/tags/computer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/computer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Device</title>
+      <link>https://ivanioi.github.io/tags/device/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/device/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Electricity</title>
+      <link>https://ivanioi.github.io/tags/electricity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/electricity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Firebase</title>
+      <link>https://ivanioi.github.io/tags/firebase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/firebase/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Likes</title>
+      <link>https://ivanioi.github.io/tags/likes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/likes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OS</title>
+      <link>https://ivanioi.github.io/tags/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/os/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Physics</title>
+      <link>https://ivanioi.github.io/tags/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/physics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://ivanioi.github.io/tags/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/project/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Turing Machine</title>
+      <link>https://ivanioi.github.io/tags/turing-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/turing-machine/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Views</title>
+      <link>https://ivanioi.github.io/tags/views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/views/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>高级</title>
+      <link>https://ivanioi.github.io/tags/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivanioi.github.io/tags/advanced/</guid>
+      <description>&lt;p&gt;这是高级标记。类似其他 Blowfish 中的其他列表页面，你可以在分类列表页添加自定义内容，这部分内容会显示在顶部。&amp;#x1f680;&lt;/p&gt;
+&lt;p&gt;你也可以用这些内容来定义 Hugo 的元数据，比如标题和描述。这些内容可以被用来增强 SEO 或其他目的。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
